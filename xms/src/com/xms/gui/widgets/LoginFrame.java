@@ -13,21 +13,22 @@
  */
 package com.xms.gui.widgets;
 import org.eclipse.swt.widgets.*;
+import javax.swing.*;
 
 public class LoginFrame {
     public LoginFrame() {
         Display display;
         Shell shell;
         
-        display = new Display ();
+        display = new Display();
         shell = new Shell(display);
         shell.setText("固资管理系统");
         shell.open ();
-        while (!shell.isDisposed ()) {
+        while (!shell.isDisposed()) {
             if (!display.readAndDispatch()) {
-                display.sleep ();
+                display.sleep();
             }
         }
-        display.dispose ();
+        display.dispose();
     }
 }
