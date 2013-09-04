@@ -1,2 +1,0 @@
-Z:\xms-build\xms\src\XmsMain.java
-Z:\xms-build\xms\src\com\xms\gui\widgets\LoginFrame.java

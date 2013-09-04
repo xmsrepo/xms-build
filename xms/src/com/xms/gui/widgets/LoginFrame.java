@@ -13,7 +13,6 @@
  */
 package com.xms.gui.widgets;
 import org.eclipse.swt.widgets.*;
-import javax.swing.*;
 
 public class LoginFrame {
     public LoginFrame() {
