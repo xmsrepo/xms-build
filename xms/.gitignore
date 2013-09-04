@@ -1,4 +1,8 @@
 *.jcu
+com/
 *.jcw
 *.jcp
+classes/
 src_xms.txt
+*.class
+*.jar

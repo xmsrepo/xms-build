@@ -18,7 +18,6 @@ public class LoginFrame {
     public LoginFrame() {
         Display display;
         Shell shell;
-        
         display = new Display();
         shell = new Shell(display);
         shell.setText("固资管理系统");
